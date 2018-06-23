@@ -19,7 +19,7 @@ describe('Wallet', () => {
   it('creates an input to deposit into or withdraw from the balance', () => {
     expect(wallet.find('.input-wallet').exists()).toBe(true);
   });
-
+  
   describe('when the user types into the wallet input', () => {
     const userBalance = '25';
 
